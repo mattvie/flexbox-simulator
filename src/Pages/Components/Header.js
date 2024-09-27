@@ -3,11 +3,11 @@ import './Header.css'
 export default function Header() {
     return (
         <header className="header">
-            <a href="/" className="index">Flexbox</a>
+            <a href="/flexbox-simulator" className="index">Flexbox</a>
 
             <nav>
-                <a href="/">Simulator</a>
-                <a href="/examples">Examples</a>
+                <a href="/flexbox-simulator">Simulator</a>
+                <a href="/flexbox-simulator/examples">Examples</a>
             </nav>
         </header>
     );
