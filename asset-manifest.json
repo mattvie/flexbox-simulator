@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/flexbox-simulator/static/css/main.9f8f51dc.css",
-    "main.js": "/flexbox-simulator/static/js/main.eeff06b5.js",
+    "main.js": "/flexbox-simulator/static/js/main.295ba2d1.js",
     "static/js/453.426aec62.chunk.js": "/flexbox-simulator/static/js/453.426aec62.chunk.js",
     "index.html": "/flexbox-simulator/index.html",
     "main.9f8f51dc.css.map": "/flexbox-simulator/static/css/main.9f8f51dc.css.map",
-    "main.eeff06b5.js.map": "/flexbox-simulator/static/js/main.eeff06b5.js.map",
+    "main.295ba2d1.js.map": "/flexbox-simulator/static/js/main.295ba2d1.js.map",
     "453.426aec62.chunk.js.map": "/flexbox-simulator/static/js/453.426aec62.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9f8f51dc.css",
-    "static/js/main.eeff06b5.js"
+    "static/js/main.295ba2d1.js"
   ]
 }
