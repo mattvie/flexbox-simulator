@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/flexbox-simulator/static/css/main.9f8f51dc.css",
-    "main.js": "/flexbox-simulator/static/js/main.ddeb40df.js",
-    "static/js/453.419a5d54.chunk.js": "/flexbox-simulator/static/js/453.419a5d54.chunk.js",
-    "index.html": "/flexbox-simulator/index.html",
-    "main.9f8f51dc.css.map": "/flexbox-simulator/static/css/main.9f8f51dc.css.map",
-    "main.ddeb40df.js.map": "/flexbox-simulator/static/js/main.ddeb40df.js.map",
-    "453.419a5d54.chunk.js.map": "/flexbox-simulator/static/js/453.419a5d54.chunk.js.map"
+    "main.css": "/static/css/main.9f8f51dc.css",
+    "main.js": "/static/js/main.bc8ce419.js",
+    "static/js/453.419a5d54.chunk.js": "/static/js/453.419a5d54.chunk.js",
+    "index.html": "/index.html",
+    "main.9f8f51dc.css.map": "/static/css/main.9f8f51dc.css.map",
+    "main.bc8ce419.js.map": "/static/js/main.bc8ce419.js.map",
+    "453.419a5d54.chunk.js.map": "/static/js/453.419a5d54.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9f8f51dc.css",
-    "static/js/main.ddeb40df.js"
+    "static/js/main.bc8ce419.js"
   ]
 }
