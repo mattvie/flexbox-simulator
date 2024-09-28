@@ -11,9 +11,9 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
-        <Route path={'/flexbox-simulator'} element={<FlexPage />} />
-        <Route path={'flexbox-simulator/examples'} element={<FlexExamples />} />
-        <Route path={'flexbox-simulator/test'} element={<FlexTest />} />
+        <Route index element={<FlexPage />} />
+        <Route path={'/examples'} element={<FlexExamples />} />
+        <Route path={'/test'} element={<FlexTest />} />
       </Route>
     </Routes>
   );

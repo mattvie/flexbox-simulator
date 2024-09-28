@@ -6,14 +6,14 @@ export default function Header() {
 
     return (
         <header className="header">
-            <Link to="/flexbox-simulator" className="index">Flexbox Simulator</Link>
+            <Link to="/" className="index">Flexbox Simulator</Link>
 
             <nav>
                 {location.pathname !== '/flexbox-simulator' && (
-                    <Link to="/flexbox-simulator">Simulator</Link>
+                    <Link to="/">Simulator</Link>
                 )}
                 {location.pathname !== '/flexbox-simulator/examples' && (
-                    <Link to="/flexbox-simulator/examples">Basic Examples</Link>
+                    <Link to="/examples">Basic Examples</Link>
                 )}
             </nav>
         </header>
