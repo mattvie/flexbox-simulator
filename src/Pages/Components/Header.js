@@ -9,10 +9,10 @@ export default function Header() {
             <Link to="/" className="index">Flexbox Simulator</Link>
 
             <nav>
-                {location.pathname !== '/flexbox-simulator' && (
+                {location.pathname !== '/' && (
                     <Link to="/">Simulator</Link>
                 )}
-                {location.pathname !== '/flexbox-simulator/examples' && (
+                {location.pathname !== '/examples' && (
                     <Link to="/examples">Basic Examples</Link>
                 )}
             </nav>
