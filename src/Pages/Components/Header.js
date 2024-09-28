@@ -1,18 +1,19 @@
-import './Header.css'
+import './Header.css';
+import { Link, useLocation } from 'react-router-dom';
 
 export default function Header() {
-    const currentPath = window.location.pathname;
+    const location = useLocation();
 
     return (
         <header className="header">
-            <a href="/#/flexbox-simulator" className="index">Flexbox Simulator</a>
+            <Link to="/flexbox-simulator" className="index">Flexbox Simulator</Link>
 
             <nav>
-                {currentPath !== '/flexbox-simulator' && (
-                    <a href="/#/flexbox-simulator">Simulator</a>
+                {location.pathname !== '/flexbox-simulator' && (
+                    <Link to="/flexbox-simulator">Simulator</Link>
                 )}
-                {currentPath !== '/flexbox-simulator/examples' && (
-                    <a href="/#/flexbox-simulator/examples">Basic Examples</a>
+                {location.pathname !== '/flexbox-simulator/examples' && (
+                    <Link to="/flexbox-simulator/examples">Basic Examples</Link>
                 )}
             </nav>
         </header>
