@@ -152,6 +152,142 @@ export default function FlexExamples() {
                 <div className="box red"></div>
                 <div className="box green"></div>
             </div>
+
+            {/* Order */}
+            <div className="container flex-direction-row">
+                <div class="container-title">order</div>
+                <div className="box" style={{ order: 0 }}>0</div>
+                <div className="box" style={{ order: 1 }}>1</div>
+                <div className="box" style={{ order: 3 }}>3</div>
+                <div className="box" style={{ order: -2 }}>-2</div>
+                <div className="box" style={{ order: 0 }}>0</div>
+                <div className="box" style={{ order: 0 }}>0</div>
+            </div>
+
+            {/* Align Self */}
+            <div className="container justify-content-center flex-wrap-nowrap">
+                <div class="container-title">align-self: center</div>
+                <div className="box" />
+                <div className="box align-self-center" />
+                <div className="box"></div>
+            </div>
+
+            {/* Flex Wrap */}
+            <div className="container justify-content-center flex-wrap-nowrap">
+                <div class="container-title">flex-wrap: nowrap</div>
+                <div className="box" />
+                <div className="box" />
+                <div className="box"></div>
+                <div className="box" />
+                <div className="box" />
+                <div className="box" />
+                <div className="box" />
+                <div className="box" />
+                <div className="box" />
+                <div className="box" />
+                <div className="box" />
+                <div className="box" />
+                <div className="box" />
+            </div>
+
+            <div className="container justify-content-center flex-wrap-wrap">
+                <div class="container-title">flex-wrap: wrap</div>
+                <div className="box" />
+                <div className="box" />
+                <div className="box"></div>
+                <div className="box" />
+                <div className="box" />
+                <div className="box" />
+                <div className="box" />
+                <div className="box" />
+                <div className="box" />
+                <div className="box" />
+                <div className="box" />
+                <div className="box" />
+                <div className="box" />
+            </div>
+
+            <div className="container justify-content-center flex-wrap-wrap-reverse">
+                <div class="container-title">flex-wrap: wrap-reverse</div>
+                <div className="box" />
+                <div className="box" />
+                <div className="box"></div>
+                <div className="box" />
+                <div className="box" />
+                <div className="box" />
+                <div className="box" />
+                <div className="box" />
+                <div className="box" />
+                <div className="box" />
+                <div className="box" />
+                <div className="box" />
+                <div className="box" />
+            </div>
+
+            {/* Align Content */}
+            <div className="container justify-content-center flex-wrap-wrap align-content-flex-start">
+                <div className="container-title">align-content: flex-start</div>
+                <div className="box" /><div className="box" /><div className="box" /><div className="box" />
+                <div className="box" /><div className="box" /><div className="box" /><div className="box" />
+                <div className="box" /><div className="box" /><div className="box" /><div className="box" />
+                <div className="box" /><div className="box" /><div className="box" /><div className="box" />
+                <div className="box" /><div className="box" /><div className="box" /><div className="box" />
+            </div>
+
+            <div className="container justify-content-center flex-wrap-wrap align-content-flex-end">
+                <div className="container-title">align-content: flex-end</div>
+                <div className="box" /><div className="box" /><div className="box" /><div className="box" />
+                <div className="box" /><div className="box" /><div className="box" /><div className="box" />
+                <div className="box" /><div className="box" /><div className="box" /><div className="box" />
+                <div className="box" /><div className="box" /><div className="box" /><div className="box" />
+                <div className="box" /><div className="box" /><div className="box" /><div className="box" />
+            </div>
+
+            <div className="container justify-content-center flex-wrap-wrap align-content-center">
+                <div className="container-title">align-content: center</div>
+                <div className="box" /><div className="box" /><div className="box" /><div className="box" />
+                <div className="box" /><div className="box" /><div className="box" /><div className="box" />
+                <div className="box" /><div className="box" /><div className="box" /><div className="box" />
+                <div className="box" /><div className="box" /><div className="box" /><div className="box" />
+                <div className="box" /><div className="box" /><div className="box" /><div className="box" />
+            </div>
+
+            <div className="container justify-content-center flex-wrap-wrap align-content-space-between">
+                <div className="container-title">align-content: space-between</div>
+                <div className="box" /><div className="box" /><div className="box" /><div className="box" />
+                <div className="box" /><div className="box" /><div className="box" /><div className="box" />
+                <div className="box" /><div className="box" /><div className="box" /><div className="box" />
+                <div className="box" /><div className="box" /><div className="box" /><div className="box" />
+                <div className="box" /><div className="box" /><div className="box" /><div className="box" />
+            </div>
+
+            <div className="container justify-content-center flex-wrap-wrap align-content-space-around">
+                <div className="container-title">align-content: space-around</div>
+                <div className="box" /><div className="box" /><div className="box" /><div className="box" />
+                <div className="box" /><div className="box" /><div className="box" /><div className="box" />
+                <div className="box" /><div className="box" /><div className="box" /><div className="box" />
+                <div className="box" /><div className="box" /><div className="box" /><div className="box" />
+                <div className="box" /><div className="box" /><div className="box" /><div className="box" />
+            </div>
+
+            <div className="container justify-content-center flex-wrap-wrap align-content-space-evenly">
+                <div className="container-title">align-content: space-evenly</div>
+                <div className="box" /><div className="box" /><div className="box" /><div className="box" />
+                <div className="box" /><div className="box" /><div className="box" /><div className="box" />
+                <div className="box" /><div className="box" /><div className="box" /><div className="box" />
+                <div className="box" /><div className="box" /><div className="box" /><div className="box" />
+                <div className="box" /><div className="box" /><div className="box" /><div className="box" />
+            </div>
+
+            <div className="container justify-content-center flex-wrap-wrap align-content-stretch">
+                <div className="container-title">align-content: stretch</div>
+                <div className="box" /><div className="box" /><div className="box" /><div className="box" />
+                <div className="box" /><div className="box" /><div className="box" /><div className="box" />
+                <div className="box" /><div className="box" /><div className="box" /><div className="box" />
+                <div className="box" /><div className="box" /><div className="box" /><div className="box" />
+                <div className="box" /><div className="box" /><div className="box" /><div className="box" />
+            </div>
+
         </body>
     )
 }

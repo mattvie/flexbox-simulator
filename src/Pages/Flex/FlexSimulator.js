@@ -10,6 +10,8 @@ export default function FlexSimulator() {
     const [justifyContent, setJustifyContent] = useState('flex-start');
     const [alignItems, setAlignItems] = useState('stretch');
     const [flexDirection, setFlexDirection] = useState('row');
+    const [flexWrap, setFlexWrap] = useState('nowrap');
+    const [alignContent, setAlignContent] = useState('stretch');
 
     const boxes = Array.from({ length: numberOfBoxes }, (_, index) => (
         <div key={index} className="box">{index + 1}</div>
@@ -78,6 +80,30 @@ export default function FlexSimulator() {
                         <option value="column-reverse">column-reverse</option>
                     </select>
                 </label>
+
+                <label className="properties">
+                    Flex Wrap:
+                    <select value={flexWrap} onChange={(e) => setFlexWrap(e.target.value)}>
+                        <option value="nowrap">nowrap</option>
+                        <option value="wrap">wrap</option>
+                        <option value="wrap-reverse">wrap-reverse</option>
+                    </select>
+                </label>
+
+                <label className="properties">
+                    Align Content:
+                    <select value={alignContent} onChange={(e) => setAlignContent(e.target.value)}>
+                        <option value="stretch">stretch</option>
+                        <option value="flex-start">flex-start</option>
+                        <option value="flex-end">flex-end</option>
+                        <option value="center">center</option>
+                        <option value="space-between">space-between</option>
+                        <option value="space-around">space-around</option>
+                        <option value="space-evenly">space-evenly</option>
+                    </select>
+                </label>
+
+
             </div>
 
             <div className="big container"
@@ -86,6 +112,8 @@ export default function FlexSimulator() {
                     justifyContent: justifyContent,
                     alignItems: alignItems,
                     flexDirection: flexDirection,
+                    flexWrap: flexWrap,
+                    alignContent: alignContent
                 }}>
 
                 {boxes}
